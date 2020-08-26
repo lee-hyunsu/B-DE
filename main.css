@@ -17,3 +17,7 @@
 .navbar-nav{
     display: block;
 }
+
+.main-photo{
+    float: right;
+}
