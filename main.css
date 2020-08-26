@@ -1,7 +1,19 @@
+
+
+.main-center{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
 .navbar{
     padding: 0;
     margin: 0;
     position: fixed;
     height: 100%;
     overflow: auto;
+}
+
+.navbar-nav{
+    display: block;
 }
