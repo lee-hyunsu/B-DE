@@ -21,3 +21,8 @@
 .main-photo{
     float: right;
 }
+
+.gallery{
+    display: flex;
+    align-items: center;
+}
