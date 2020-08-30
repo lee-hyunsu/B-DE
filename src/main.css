@@ -110,3 +110,11 @@ body{
 .wrapper .main_content .info div{
    margin-bottom: 20px; 
 }
+
+.gallery{
+    opacity: 0.5;
+}
+
+.schedule{
+    opacity: 0.5;
+}
