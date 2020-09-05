@@ -13,3 +13,5 @@
 //     let smallPicAttribute = this.getAttribute("src");
 //     bigPic.setAttribute("src", smallPicAttribute);
 // }
+
+alert("출력");
