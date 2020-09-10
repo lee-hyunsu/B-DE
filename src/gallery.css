@@ -22,3 +22,43 @@
     font-size: 0;
     line-height: 0;
 } */
+
+.sub_photo li{
+    float: none;
+    position: relative;
+    width: 160px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.sub_photo li.last{
+    margin-right: 0;
+}
+
+.sub_photo li a strong{
+    display: block;
+    overflow: hidden;
+    padding-right: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.sub_photo li img{
+    width: 160px;
+    height: 120px;
+}
+
+.sub_photo p.thmb{
+    margin-bottom: 3px;
+}
+
+.sub_photo .tx_brief{
+    margin-top: 2px;
+    padding-right: 13px;
+}
+
+.sub_photo .tx_brief a{
+    color: #666;
+}
