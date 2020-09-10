@@ -23,6 +23,8 @@
     line-height: 0;
 } */
 
+
+/*갤러리*/
 .sub_photo li{
     float: none;
     position: relative;
@@ -61,4 +63,16 @@
 
 .sub_photo .tx_brief a{
     color: #666;
+}
+
+
+/*게시판 페이징*/
+.paginate{
+    padding: 16px 0 0;
+    text-align: center;
+}
+
+.paginate a.paginate strong{
+    display: inline-block;
+    position: relative;
 }
