@@ -72,7 +72,15 @@
     text-align: center;
 }
 
-.paginate a.paginate strong{
+.paginate a,
+.paginate strong{
     display: inline-block;
     position: relative;
+    width: 17px;
+    margin-right: 1px;
+    padding: 2px 4px 3px;
+    border: 1px solid #f5f2ed;
+    color: #666;
+    
 }
+
