@@ -112,3 +112,24 @@
 .paginate a.next{
     background: url(http://static.naver.com/common/paginate/bu_pg3_r_on.gif) no-repeat 33px 6px !important;
 }
+
+.paginate .pre,
+.paginate .next{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 75px;
+    border: 1px solid #b4b4b4;
+    color: #ccc;
+}
+
+.paginate a.pre,
+.paginate a.next{
+    color: #565656;
+}
+
+.paginate a:hover{
+    border: 1px solid #e9e9e9;
+    color: #fff;
+    background-color: #939393 !important;
+}
