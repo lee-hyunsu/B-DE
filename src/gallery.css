@@ -84,3 +84,14 @@
     
 }
 
+.paginate strong{
+    border: 1px solid #928070;
+    color: #f52d2d !important;
+}
+
+.paginate .pre{
+    margin-right: 6px;
+    padding: 5px 6px 2px 14px;
+    padding-bottom: 1px;
+    background: url(http://static.naver.com/common/paginate/bu);
+}
