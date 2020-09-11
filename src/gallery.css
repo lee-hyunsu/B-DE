@@ -104,3 +104,11 @@
     background: url(http://static.naver.com/common/paginate/bu_pg3_r_off.gif) no-repeat 62px 5px !important;
     letter-spacing: -1px;
 }
+
+.paginate a.pre{
+    background: url(http://static.naver.com/common/paginate/bu_pg3_l_on.gif) no-repeat 33px 6px !important;
+}
+
+.paginate a.next{
+    background: url(http://static.naver.com/common/paginate/bu_pg3_r_on.gif) no-repeat 33px 6px !important;
+}
