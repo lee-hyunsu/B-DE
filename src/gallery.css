@@ -93,5 +93,14 @@
     margin-right: 6px;
     padding: 5px 6px 2px 14px;
     padding-bottom: 1px;
-    background: url(http://static.naver.com/common/paginate/bu);
+    background: url(http://static.naver.com/common/paginate/bu_pg3_l_off.gif) no-repeat 6px 5px !important;
+    letter-spacing: -1px;
+}
+
+.paginate .next{
+    margin-left: 4px;
+    padding: 5px 14px 2px 6px;
+    padding-bottom: 1px;
+    background: url(http://static.naver.com/common/paginate/bu_pg3_r_off.gif) no-repeat 62px 5px !important;
+    letter-spacing: -1px;
 }
