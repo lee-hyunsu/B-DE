@@ -14,4 +14,10 @@
 //     bigPic.setAttribute("src", smallPicAttribute);
 // }
 
-alert("출력");
+document.querySelector('.myButton').addEventListener('click', function cli() {
+    alert('Clicked!');
+  });
+
+
+
+cli();
