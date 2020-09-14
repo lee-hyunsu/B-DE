@@ -21,3 +21,14 @@ document.querySelector('.myButton').addEventListener('click', function cli() {
 
 
 cli();
+
+const input = document.querySelector('input[type=text]');
+const msg = document.querySelector('.message');
+
+input.addEventListener('blur', function () {
+    if (input.value.length < 2) {
+      msg.innerHTML = '이름은 2자 이상 입력해 주세요';
+    } else {
+      msg.innerHTML = '';
+    }
+  });
