@@ -32,3 +32,5 @@ input.addEventListener('blur', function () {
       msg.innerHTML = '';
     }
   });
+
+  alert("input");
