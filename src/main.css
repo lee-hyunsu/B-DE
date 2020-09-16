@@ -155,13 +155,13 @@ figure.snip1283 {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 100%;
+  max-width: 100%;
   max-height: 220px;
   width: 100%;
   color: #ffffff;
   text-align: left;
-  background-color: #07090c;
+  /* background-color: #07090c; */
   font-size: 16px;
   -webkit-perspective: 50em;
   perspective: 50em;
@@ -194,10 +194,10 @@ figure.snip1283 figcaption {
   opacity: 0;
   padding: 20px 30px;
 }
-figure.snip1283 h3,
+/* figure.snip1283 h3,
 figure.snip1283 p {
   line-height: 1.5em;
-}
+} */
 figure.snip1283 h3 {
   margin: 0;
   font-weight: 800;
