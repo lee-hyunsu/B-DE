@@ -33,4 +33,4 @@ input.addEventListener('blur', function () {
     }
   });
 
-  alert("input");
+  // alert("input");
