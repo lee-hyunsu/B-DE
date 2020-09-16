@@ -34,3 +34,9 @@ input.addEventListener('blur', function () {
   });
 
   // alert("input");
+
+  $(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
