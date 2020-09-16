@@ -129,11 +129,16 @@ input:hover{
     filter: alpha(opacity=100);
 }
 
+.member{
+    display: flex;
+}
+
 .box {
     width: 150px;
     height: 150px; 
     border-radius: 70%;
     overflow: hidden;
+    margin-right: 10px;
 }
 .profile {
     width: 100%;
