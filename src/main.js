@@ -14,13 +14,13 @@
 //     bigPic.setAttribute("src", smallPicAttribute);
 // }
 
-document.querySelector('.myButton').addEventListener('click', function cli() {
+document.querySelector('.myButton').addEventListener('click', function() {
     alert('Clicked!');
   });
 
 
 
-cli();
+// cli();
 
 const input = document.querySelector('input[type=text]');
 const msg = document.querySelector('.message');
