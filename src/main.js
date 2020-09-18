@@ -15,7 +15,7 @@
 // }
 
 document.querySelector('.myButton').addEventListener('click', function() {
-    alert('Clicked!');
+    alert('로그인!');
   });
 
 
