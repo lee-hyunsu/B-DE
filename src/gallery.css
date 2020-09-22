@@ -26,7 +26,7 @@
 
 /*갤러리*/
 .sub_photo li{
-    float: none;
+    float: left;
     position: relative;
     width: 160px;
     margin-right: 8px;
@@ -212,4 +212,3 @@
 {
   opacity: 0.1;
 }
-
