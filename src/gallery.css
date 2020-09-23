@@ -75,7 +75,7 @@
 .paginate{
     padding: 16px 0 0;
     text-align: center;
-    
+    display: grid;
 }
 
 .paginate a,
@@ -99,7 +99,6 @@
     margin-right: 6px;
     padding: 5px 6px 2px 14px;
     padding-bottom: 1px;
-    /* background: url(http://static.naver.com/common/paginate/bu_pg3_l_off.gif) no-repeat 6px 5px !important; */
     letter-spacing: -1px;
 }
 
@@ -107,17 +106,8 @@
     margin-left: 4px;
     padding: 5px 14px 2px 6px;
     padding-bottom: 1px;
-    /* background: url(http://static.naver.com/common/paginate/bu_pg3_r_off.gif) no-repeat 62px 5px !important; */
     letter-spacing: -1px;
 }
-
-/* .paginate a.pre{
-    background: url(http://static.naver.com/common/paginate/bu_pg3_l_on.gif) no-repeat 33px 6px !important;
-}
-
-.paginate a.next{
-    background: url(http://static.naver.com/common/paginate/bu_pg3_r_on.gif) no-repeat 33px 6px !important;
-} */
 
 .paginate .pre,
 .paginate .next{
