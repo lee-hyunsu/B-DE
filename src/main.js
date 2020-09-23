@@ -18,6 +18,9 @@ document.querySelector('.myButton').addEventListener('click', function() {
     alert('로그인!');
   });
 
+document.querySelector('.myButton1').addEventListener('click', function() {
+  alert('회원가입 창으로 이동합니다!');
+});
 
 
 // cli();
@@ -26,8 +29,8 @@ const input = document.querySelector('input[type=text]');
 const msg = document.querySelector('.message');
 
 input.addEventListener('blur', function () {
-    if (input.value.length < 2) {
-      msg.innerHTML = '이름은 2자 이상 입력해 주세요';
+    if (input.value.length < 5) {
+      msg.innerHTML = '아이디는 영문이름으로 입력해 주세요';
     } else {
       msg.innerHTML = '';
     }
